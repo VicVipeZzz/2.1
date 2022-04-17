@@ -1,0 +1,6 @@
+﻿  pch.cpp
+  UnitTest5.cpp
+C:\Users\vikto\source\repos\2.1\UnitTest5\UnitTest5.cpp(21,1): error C2665: 'Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual': none of the 8 overloads could convert all the argument types
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Auxiliary\VS\UnitTest\include\CppUnitTestAssert.h(187,15): message : could be 'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const wchar_t *,const wchar_t *,bool,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\VC\Auxiliary\VS\UnitTest\include\CppUnitTestAssert.h(168,15): message : or       'void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const char *,const char *,bool,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)'
+C:\Users\vikto\source\repos\2.1\UnitTest5\UnitTest5.cpp(21,1): message : while trying to match the argument list '(void, int)'
